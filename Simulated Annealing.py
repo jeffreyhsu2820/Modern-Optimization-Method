@@ -132,5 +132,5 @@ converge_criteria=500 #連續幾次都是同一個point
 # In[364]:
 
 
-main(6,3,target_function, constraint, 430, [-6,6], 1, 0.5, 2, 1000)
+main(6,3,target_function, constraint, 430, [-6,6], 1, 0.5, 2, 500)
 
