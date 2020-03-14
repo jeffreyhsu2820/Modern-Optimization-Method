@@ -116,16 +116,16 @@ def main(population,var_num,target_function,constraint,scope,R,boltzmann_constan
 # In[ ]:
 
 
-k1,k2=0,0
-population=6 #初始pool的個數
-var_num=3 #有幾個變數
-target_function=
-constraint=
-scope=430  #變數值的範圍可以從0到幾
-R=[-6,6] #設定尋找的範圍
+k1,k2=1,1             #將風險跟利潤看唯一樣重要
+population=6          #初始pool的個數
+var_num=3             #有幾個變數
+# target_function=    向上面定的一樣
+# constraint=         向上面定的一樣
+scope=430             #變數值的範圍可以從0到幾
+R=[-6,6]              #設定尋找的範圍
 boltzmann_constant=1  #設定波茲曼常數
-c=0.5    #設定temperaturereductionfactor
-iteration=2 #要跌代幾次
+c=0.5                 #設定temperaturereductionfactor
+iteration=2           #要跌代幾次
 converge_criteria=500 #連續幾次都是同一個point
 
 
